@@ -1,0 +1,341 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "loading": "Loading...",
+    "amount": "Amount",
+    "date": "Date",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tryAgain": "Please try again"
+  },
+  "navigation": {
+    "home": "Home",
+    "savings": "Savings",
+    "addMoney": "Add Money",
+    "history": "History",
+    "parents": "Parents"
+  },
+  "home": {
+    "title": "My Piggy Bank 🏦",
+    "welcomeBack": "Welcome back, {{name}}! 👋",
+    "maturedDeposits": "🎉 {{count}} deposit has matured!",
+    "maturedDeposits_plural": "🎉 {{count}} deposits have matured!",
+    "maturedSubtext": "Money automatically added to your balance! Check \"Savings\" tab for details.",
+    "balanceLabel": "Money Ready to Spend 💵",
+    "fixedDeposits": "Fixed Deposits",
+    "savingsAmount": "You're saving HK${{amount}} in deposits! 🌱",
+    "spendSection": "I want to spend on... 💳",
+    "quickSpend": {
+      "drink": "Drink 🥤",
+      "snack": "Snack 🍪",
+      "book": "Book 📚",
+      "games": "Games 🎮",
+      "fun": "Fun 🎵",
+      "other": "Other 🎁"
+    },
+    "tipTitle": "💡 Smart Money Tip!",
+    "tipLowBalance": "Ask your parents for allowance to add money to your piggy bank!",
+    "tipGoodBalance": "Great job saving! Consider putting some money in a deposit to watch it grow! 🌱",
+    "lowBalanceText": "Ask parents for allowance! 🙏",
+    "goodBalanceText": "Great savings! Consider a deposit! 🌱"
+  },
+  "deposits": {
+    "title": "My Savings Bank",
+    "availableToDeposit": "Available to Deposit",
+    "startNewDeposit": "Start a New Deposit 🌱",
+    "mySavings": "My Savings 🌳",
+    "noDeposits": "No deposits yet! \nStart saving and watch your money grow! 🌱💰",
+    "matured": "🎉 MATURED",
+    "timeRemaining": {
+      "matured": "Matured! 🎉",
+      "autoCredited": "Auto-credited to balance!",
+      "dayLeft": "1 day left",
+      "daysLeft": "{{count}} days left",
+      "weekLeft": "1 week left",
+      "weeksLeft": "{{count}} weeks left",
+      "monthLeft": "1 month left",
+      "monthsLeft": "{{count}} months left",
+      "yearLeft": "1 year left",
+      "yearsLeft": "{{count}} years left"
+    },
+    "earned": "Earned: {{amount}}",
+    "willBecome": "Will become: {{amount}}",
+    "collectMoney": "Collect Money! 🎉",
+    "withdrawEarly": "Withdraw Early",
+    "maturedInfo": "✨ Money automatically added to your balance!",
+    "maturedAlert": "🎉 {{count}} deposit has matured and been added to your balance!",
+    "maturedAlert_plural": "🎉 {{count}} deposits have matured and been added to your balance!",
+    "withdrawSuccess": "Money has been returned to your balance",
+    "createModal": {
+      "title": "Create New Deposit 🏦",
+      "howMuch": "How much to deposit?",
+      "chooseTerm": "Choose deposit term:",
+      "terms": {
+        "1month": "1 Month",
+        "3months": "3 Months",
+        "6months": "6 Months",
+        "1year": "1 Year"
+      },
+      "projection": {
+        "title": "Your Money Will Grow! 📈",
+        "deposit": "Deposit: {{amount}}",
+        "interest": "Interest: {{amount}}",
+        "total": "Total: {{amount}}"
+      },
+      "createButton": "Create Deposit",
+      "success": "Deposit Created! 🎉",
+      "successMessage": "Your HK${{amount}} is now growing for {{term}} months!"
+    },
+    "parentAuth": {
+      "title": "Parents Only 🔒",
+      "subtitle": "Enter password to continue"
+    }
+  },
+  "addMoney": {
+    "title": "Add Pocket Money",
+    "subtitle": "Parents: Enter the amount to add to {{childName}}'s balance",
+    "subtitleDefault": "Parents: Enter the amount to add to your child's balance",
+    "note": "Note (optional)",
+    "notePlaceholder": "e.g., Weekly allowance, birthday gift",
+    "parentAuth": {
+      "title": "Parents Only",
+      "subtitle": "Enter parent password to add money"
+    },
+    "success": "Added {{amount}}!",
+    "invalidAmount": "Please enter a valid amount",
+    "incorrectPassword": "Incorrect password"
+  },
+  "history": {
+    "title": "My Spending History",
+    "filters": {
+      "all": "All",
+      "spent": "Spent",
+      "received": "Received"
+    },
+    "empty": {
+      "all": "No transactions yet!",
+      "spent": "No spending yet!",
+      "received": "No money received yet!",
+      "allSubtext": "Your transactions will appear here",
+      "spentSubtext": "Track what you spend money on",
+      "receivedSubtext": "Money added will show here"
+    }
+  },
+  "parent": {
+    "title": "Monthly Summary",
+    "thisMonth": "This Month",
+    "currentBalance": "Current Balance",
+    "totalSpent": "Total Spent",
+    "dailySpending": "Daily Spending",
+    "topCategories": "Top Spending Categories",
+    "noCategories": "No spending categories yet",
+    "noSpendingMonth": "No spending this month yet!",
+    "noSpendingSubtext": "Track your spending to see your Summary"
+  },
+  "parent": {
+    "title": "Parent Dashboard",
+    "auth": {
+      "title": "Parents Only 🔒",
+      "subtitle": "Enter your password to access parent controls",
+      "placeholder": "Enter parent password",
+      "button": "Access Dashboard",
+      "hint": "💡 Hint: Default password is \"1234\"",
+      "incorrect": "Incorrect Password"
+    },
+    "overview": {
+      "title": "{{childName}}'s Money 👶",
+      "titleDefault": "Your Child's Money 👶",
+      "availableBalance": "Available Balance",
+      "totalSavings": "Total Savings"
+    },
+    "quickActions": "Quick Actions",
+    "addAllowance": {
+      "title": "Add Allowance 💰",
+      "subtitle": "Give your child pocket money",
+      "success": "Income Added! 💰",
+      "successMessage": "{{amount}} has been added to {{childName}}'s balance",
+      "successMessageDefault": "{{amount}} has been added to your child's balance"
+    },
+    "termRates": {
+      "title": "Term Deposit Rates 🏦",
+      "subtitle": "Set different rates for each term length",
+      "modalTitle": "Term Deposit Rates 🏦",
+      "modalSubtitle": "Set different interest rates for each deposit term",
+      "terms": {
+        "1week": "🌱 1 Week",
+        "2weeks": "🌿 2 Weeks",
+        "1month": "🌳 1 Month",
+        "3months": "🏆 3 Months"
+      },
+      "tip": "💡 Tip: Shorter terms can have higher rates to encourage quick savings!",
+      "success": "Term Rates Updated! 📈",
+      "successMessage": "Deposit interest rates have been updated",
+      "invalidRates": "Invalid Rates",
+      "invalidRatesMessage": "Please enter rates between 0% and 50%",
+      "modalTitle": "Update Rates"
+    }
+  },
+  "profile": {
+    "title": "Profile & Settings",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security",
+      "settings": "Settings"
+    },
+    "userName": "{{name}}'s Account",
+    "profileTab": {
+      "parentName": "Parent Name",
+      "parentNamePlaceholder": "Enter your name",
+      "childName": "Child Name",
+      "childNamePlaceholder": "Enter child's name",
+      "saveChanges": "Save Changes",
+      "success": "Profile updated successfully",
+      "error": "Please enter both parent and child names"
+    },
+    "securityTab": {
+      "currentPassword": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "helperText": "This password is required when adding money to the piggy bank",
+      "updatePassword": "Update Password",
+      "clearData": "Clear All Transactions",
+      "clearWarning": {
+        "title": "Clear All Transactions?",
+        "message": "This action will delete all transactions, including pocket money and spending. This cannot be undone.",
+        "enterPassword": "Enter Parent Password",
+        "confirmButton": "Clear All",
+        "success": "All transactions have been cleared"
+      },
+      "errors": {
+        "enterCurrent": "Please enter your current password",
+        "incorrectCurrent": "Current password is incorrect",
+        "newTooShort": "New password must be at least 4 characters",
+        "passwordsNoMatch": "New passwords do not match",
+        "enterPassword": "Please enter your password",
+        "incorrectPassword": "Incorrect password"
+      },
+      "success": "Password updated successfully"
+    },
+    "settingsTab": {
+      "appStyle": "App Style",
+      "appStyleDescription": "Choose a style for your piggy bank",
+      "boysStyle": "Boys Style",
+      "girlsStyle": "Girls Style",
+      "language": "Language",
+      "languageDescription": "Choose your preferred language",
+      "english": "English",
+      "traditionalChinese": "Traditional Chinese",
+      "saveSettings": "Save Settings",
+      "helpSupport": "Help & Support",
+      "success": "Settings updated successfully"
+    }
+  },
+  "onboarding": {
+    "step0": {
+      "title": "Welcome to Kids Piggy Bank!",
+      "subtitle": "Choose your preferred language to get started.",
+      "english": "English",
+      "traditionalChinese": "繁體中文"
+    },
+    "step1": {
+      "title": "Let's get to know you!",
+      "subtitle": "Let's start by getting to know you.",
+      "parentName": "Parent/Guardian Name",
+      "placeholder": "Enter your name"
+    },
+    "step2": {
+      "title": "Who's learning to save?",
+      "subtitle": "This app will help them track their pocket money!",
+      "childName": "Child's Name",
+      "placeholder": "Enter child's name"
+    },
+    "step3": {
+      "title": "Just one more step!",
+      "subtitle": "Create a parent password to manage money securely.",
+      "parentPassword": "Parent Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPlaceholder": "Re-enter password",
+      "helperText": "This password will be required when adding funds to the piggy bank."
+    },
+    "step4": {
+      "title": "Choose a style",
+      "subtitle": "Pick a style that your child will love!",
+      "boysStyle": "Boys Style",
+      "girlsStyle": "Girls Style"
+    },
+    "getStarted": "Get Started",
+    "errors": {
+      "enterParentName": "Please enter the parent's name",
+      "enterChildName": "Please enter the child's name",
+      "passwordTooShort": "Please enter a password with at least 4 characters",
+      "passwordsNoMatch": "Passwords do not match"
+    }
+  },
+  "categoryModal": {
+    "title": "Add Spending",
+    "category": "Category",
+    "howMuch": "How much did you spend?",
+    "whatBought": "What did you buy? (optional)",
+    "placeholder": "e.g., Ice cream at the park",
+    "currentBalance": "Current Balance:",
+    "addSpending": "Add Spending",
+    "errors": {
+      "invalidAmount": "Please enter a valid amount",
+      "insufficientFunds": "Not enough money in your piggy bank"
+    }
+  },
+  "categories": {
+    "Food": "Food",
+    "Transport": "Transport",
+    "Entertainment": "Entertainment",
+    "Education": "Education",
+    "Pocket Money": "Pocket Money",
+    "Gift": "Gift",
+    "Other": "Other",
+    "Deposit": "Deposit"
+  },
+  "transactions": {
+    "allowance": "Allowance",
+    "pocketMoney": "Pocket Money",
+    "depositMatured": "Deposit Matured! 🎉",
+    "fixedDeposit": "Fixed Deposit ({{term}} months)",
+    "spentOn": "Spent on {{category}}"
+  },
+  "formatting": {
+    "currency": "HK${{amount}}",
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    }
+  },
+  "empty": {
+    "message": "{{message}}",
+    "subMessage": "{{subMessage}}"
+  }
+}

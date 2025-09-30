@@ -1,0 +1,341 @@
+{
+  "common": {
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "continue": "繼續",
+    "back": "返回",
+    "next": "下一步",
+    "done": "完成",
+    "close": "關閉",
+    "yes": "是",
+    "no": "否",
+    "ok": "確定",
+    "error": "錯誤",
+    "success": "成功",
+    "loading": "載入中...",
+    "amount": "金額",
+    "date": "日期",
+    "today": "今天",
+    "yesterday": "昨天",
+    "tryAgain": "請重試"
+  },
+  "navigation": {
+    "home": "主頁",
+    "savings": "儲蓄",
+    "addMoney": "加錢",
+    "history": "記錄",
+    "parents": "家長"
+  },
+  "home": {
+    "title": "我的小豬撲滿 🏦",
+    "welcomeBack": "歡迎回來，{{name}}！👋",
+    "maturedDeposits": "🎉 {{count}} 個定期存款已到期！",
+    "maturedDeposits_plural": "🎉 {{count}} 個定期存款已到期！",
+    "maturedSubtext": "錢已自動加到你的餘額！查看「儲蓄」頁面了解詳情。",
+    "balanceLabel": "可用零用錢 💵",
+    "fixedDeposits": "定期存款",
+    "savingsAmount": "你正在存款中儲蓄 HK${{amount}}！🌱",
+    "spendSection": "我想花錢買... 💳",
+    "quickSpend": {
+      "drink": "飲品 🥤",
+      "snack": "零食 🍪",
+      "book": "書籍 📚",
+      "games": "遊戲 🎮",
+      "fun": "娛樂 🎵",
+      "other": "其他 🎁"
+    },
+    "tipTitle": "💡 理財小貼士！",
+    "tipLowBalance": "向父母要零用錢來增加你的小豬撲滿！",
+    "tipGoodBalance": "儲蓄做得很好！考慮把一些錢存定期來看它增長！🌱",
+    "lowBalanceText": "向父母要零用錢！🙏",
+    "goodBalanceText": "儲蓄很棒！考慮定期存款！🌱"
+  },
+  "deposits": {
+    "title": "我的儲蓄銀行",
+    "availableToDeposit": "可存款金額",
+    "startNewDeposit": "開始新的存款 🌱",
+    "mySavings": "我的儲蓄 🌳",
+    "noDeposits": "還沒有存款！\n開始儲蓄，看著你的錢增長！🌱💰",
+    "matured": "🎉 已到期",
+    "timeRemaining": {
+      "matured": "已到期！🎉",
+      "autoCredited": "已自動加到餘額！",
+      "dayLeft": "還有1天",
+      "daysLeft": "還有{{count}}天",
+      "weekLeft": "還有1週",
+      "weeksLeft": "還有{{count}}週",
+      "monthLeft": "還有1個月",
+      "monthsLeft": "還有{{count}}個月",
+      "yearLeft": "還有1年",
+      "yearsLeft": "還有{{count}}年"
+    },
+    "earned": "已賺取：{{amount}}",
+    "willBecome": "將變成：{{amount}}",
+    "collectMoney": "收取錢款！🎉",
+    "withdrawEarly": "提早提取",
+    "maturedInfo": "✨ 錢已自動加到你的餘額！",
+    "maturedAlert": "🎉 {{count}} 個存款已到期並加到你的餘額！",
+    "maturedAlert_plural": "🎉 {{count}} 個存款已到期並加到你的餘額！",
+    "withdrawSuccess": "錢已退回到你的餘額",
+    "createModal": {
+      "title": "建立新存款 🏦",
+      "howMuch": "要存多少錢？",
+      "chooseTerm": "選擇存款期限：",
+      "terms": {
+        "1month": "1個月",
+        "3months": "3個月",
+        "6months": "6個月",
+        "1year": "1年"
+      },
+      "projection": {
+        "title": "你的錢會增長！📈",
+        "deposit": "存款：{{amount}}",
+        "interest": "利息：{{amount}}",
+        "total": "總計：{{amount}}"
+      },
+      "createButton": "建立存款",
+      "success": "存款已建立！🎉",
+      "successMessage": "你的 HK${{amount}} 現在會增長{{term}}個月！"
+    },
+    "parentAuth": {
+      "title": "僅限家長 🔒",
+      "subtitle": "輸入密碼以繼續"
+    }
+  },
+  "addMoney": {
+    "title": "加零用錢",
+    "subtitle": "家長：輸入要加到{{childName}}餘額的金額",
+    "subtitleDefault": "家長：輸入要加到你孩子餘額的金額",
+    "note": "備註（可選）",
+    "notePlaceholder": "例如：每週零用錢、生日禮物",
+    "parentAuth": {
+      "title": "僅限家長",
+      "subtitle": "輸入家長密碼以加錢"
+    },
+    "success": "已加入{{amount}}！",
+    "invalidAmount": "請輸入有效金額",
+    "incorrectPassword": "密碼錯誤"
+  },
+  "history": {
+    "title": "我的消費記錄",
+    "filters": {
+      "all": "全部",
+      "spent": "支出",
+      "received": "收入"
+    },
+    "empty": {
+      "all": "還沒有交易記錄！",
+      "spent": "還沒有消費記錄！",
+      "received": "還沒有收到錢！",
+      "allSubtext": "你的交易記錄會顯示在這裡",
+      "spentSubtext": "追蹤你花錢買了什麼",
+      "receivedSubtext": "收到的錢會顯示在這裡"
+    }
+  },
+  "parent": {
+    "title": "家長控制台",
+    "auth": {
+      "title": "僅限家長 🔒",
+      "subtitle": "輸入你的密碼以進入家長控制",
+      "placeholder": "輸入家長密碼",
+      "button": "進入控制台",
+      "hint": "💡 提示：預設密碼是 \"1234\"",
+      "incorrect": "密碼錯誤"
+    },
+    "overview": {
+      "title": "{{childName}}的錢 👶",
+      "titleDefault": "你孩子的錢 👶",
+      "availableBalance": "可用餘額",
+      "totalSavings": "總儲蓄"
+    },
+    "quickActions": "快速操作",
+    "addAllowance": {
+      "title": "加零用錢 💰",
+      "subtitle": "給你的孩子零用錢",
+      "success": "收入已加入！💰",
+      "successMessage": "{{amount}} 已加到{{childName}}的餘額",
+      "successMessageDefault": "{{amount}} 已加到你孩子的餘額"
+    },
+    "termRates": {
+      "title": "定期存款利率 🏦",
+      "subtitle": "為不同期限設定利率",
+      "modalTitle": "定期存款利率 🏦",
+      "modalSubtitle": "為每個存款期限設定不同的利率",
+      "terms": {
+        "1week": "🌱 1週",
+        "2weeks": "🌿 2週",
+        "1month": "🌳 1個月",
+        "3months": "🏆 3個月"
+      },
+      "tip": "💡 提示：較短期限可以有較高利率以鼓勵快速儲蓄！",
+      "success": "期限利率已更新！📈",
+      "successMessage": "存款利率已更新",
+      "invalidRates": "無效利率",
+      "invalidRatesMessage": "請輸入0%到50%之間的利率",
+      "modalTitle": "更新利率"
+    }
+  },
+  "summary": {
+    "title": "月度總結",
+    "thisMonth": "本月",
+    "currentBalance": "目前餘額",
+    "totalSpent": "總支出",
+    "dailySpending": "每日支出",
+    "topCategories": "主要支出類別",
+    "noCategories": "還沒有支出類別",
+    "noSpendingMonth": "本月還沒有支出！",
+    "noSpendingSubtext": "追蹤你的支出來查看總結"
+  },
+  "profile": {
+    "title": "個人資料與設定",
+    "tabs": {
+      "profile": "個人資料",
+      "security": "安全",
+      "settings": "設定"
+    },
+    "userName": "{{name}}的帳戶",
+    "profileTab": {
+      "parentName": "家長姓名",
+      "parentNamePlaceholder": "輸入你的姓名",
+      "childName": "孩子姓名",
+      "childNamePlaceholder": "輸入孩子的姓名",
+      "saveChanges": "儲存變更",
+      "success": "個人資料更新成功",
+      "error": "請輸入家長和孩子的姓名"
+    },
+    "securityTab": {
+      "currentPassword": "目前密碼",
+      "currentPasswordPlaceholder": "輸入目前密碼",
+      "newPassword": "新密碼",
+      "newPasswordPlaceholder": "輸入新密碼",
+      "confirmPassword": "確認新密碼",
+      "confirmPasswordPlaceholder": "重新輸入新密碼",
+      "helperText": "加錢到小豬撲滿時需要此密碼",
+      "updatePassword": "更新密碼",
+      "clearData": "清除所有交易記錄",
+      "clearWarning": {
+        "title": "清除所有交易記錄？",
+        "message": "此操作會刪除所有交易記錄，包括零用錢和消費。此操作無法復原。",
+        "enterPassword": "輸入家長密碼",
+        "confirmButton": "全部清除",
+        "success": "所有交易記錄已清除"
+      },
+      "errors": {
+        "enterCurrent": "請輸入你的目前密碼",
+        "incorrectCurrent": "目前密碼錯誤",
+        "newTooShort": "新密碼必須至少4個字元",
+        "passwordsNoMatch": "新密碼不符",
+        "enterPassword": "請輸入你的密碼",
+        "incorrectPassword": "密碼錯誤"
+      },
+      "success": "密碼更新成功"
+    },
+    "settingsTab": {
+      "appStyle": "應用程式風格",
+      "appStyleDescription": "為你的小豬撲滿選擇風格",
+      "boysStyle": "男孩風格",
+      "girlsStyle": "女孩風格",
+      "language": "語言",
+      "languageDescription": "選擇你偏好的語言",
+      "english": "English",
+      "traditionalChinese": "繁體中文",
+      "saveSettings": "儲存設定",
+      "helpSupport": "幫助與支援",
+      "success": "設定更新成功"
+    }
+  },
+  "onboarding": {
+    "step0": {
+      "title": "歡迎使用兒童小豬撲滿！",
+      "subtitle": "選擇你偏好的語言開始使用。",
+      "english": "English",
+      "traditionalChinese": "繁體中文"
+    },
+    "step1": {
+      "title": "讓我們先認識你！",
+      "subtitle": "讓我們先認識你。",
+      "parentName": "家長/監護人姓名",
+      "placeholder": "輸入你的姓名"
+    },
+    "step2": {
+      "title": "誰在學習儲蓄？",
+      "subtitle": "這個應用程式會幫助他們追蹤零用錢！",
+      "childName": "孩子姓名",
+      "placeholder": "輸入孩子的姓名"
+    },
+    "step3": {
+      "title": "只剩最後一步！",
+      "subtitle": "建立家長密碼以安全管理金錢。",
+      "parentPassword": "家長密碼",
+      "passwordPlaceholder": "建立密碼",
+      "confirmPassword": "確認密碼",
+      "confirmPlaceholder": "重新輸入密碼",
+      "helperText": "加錢到小豬撲滿時需要此密碼。"
+    },
+    "step4": {
+      "title": "選擇風格",
+      "subtitle": "選擇你的孩子會喜歡的風格！",
+      "boysStyle": "男孩風格",
+      "girlsStyle": "女孩風格"
+    },
+    "getStarted": "開始使用",
+    "errors": {
+      "enterParentName": "請輸入家長姓名",
+      "enterChildName": "請輸入孩子姓名",
+      "passwordTooShort": "請輸入至少4個字元的密碼",
+      "passwordsNoMatch": "密碼不符"
+    }
+  },
+  "categoryModal": {
+    "title": "加入消費",
+    "category": "類別",
+    "howMuch": "你花了多少錢？",
+    "whatBought": "你買了什麼？（可選）",
+    "placeholder": "例如：公園裡的冰淇淋",
+    "currentBalance": "目前餘額：",
+    "addSpending": "加入消費",
+    "errors": {
+      "invalidAmount": "請輸入有效金額",
+      "insufficientFunds": "小豬撲滿裡的錢不夠"
+    }
+  },
+  "categories": {
+    "Food": "食物",
+    "Transport": "交通",
+    "Entertainment": "娛樂",
+    "Education": "教育",
+    "Pocket Money": "零用錢",
+    "Gift": "禮物",
+    "Other": "其他",
+    "Deposit": "存款"
+  },
+  "transactions": {
+    "allowance": "零用錢",
+    "pocketMoney": "零用錢",
+    "depositMatured": "存款到期！🎉",
+    "fixedDeposit": "定期存款（{{term}}個月）",
+    "spentOn": "花在{{category}}"
+  },
+  "formatting": {
+    "currency": "HK${{amount}}",
+    "months": {
+      "jan": "1月",
+      "feb": "2月",
+      "mar": "3月",
+      "apr": "4月",
+      "may": "5月",
+      "jun": "6月",
+      "jul": "7月",
+      "aug": "8月",
+      "sep": "9月",
+      "oct": "10月",
+      "nov": "11月",
+      "dec": "12月"
+    }
+  },
+  "empty": {
+    "message": "{{message}}",
+    "subMessage": "{{subMessage}}"
+  }
+}
