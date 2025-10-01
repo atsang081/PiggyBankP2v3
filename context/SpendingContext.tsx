@@ -395,10 +395,27 @@ export function SpendingProvider({ children }: { children: React.ReactNode }) {
     const interestRate = getInterestRateForTerm(termMonths);
     const startDate = new Date();
     const maturityDate = new Date();
-    maturityDate.setMonth(maturityDate.getMonth() + termMonths);
-    
+
+    // Convert term months to days for accurate calculation
+    // This handles fractional months (weeks) properly
+    let daysToAdd: number;
+    if (termMonths === 0.25) {
+      daysToAdd = 7; // 1 week
+    } else if (termMonths === 0.5) {
+      daysToAdd = 14; // 2 weeks
+    } else if (termMonths === 1) {
+      daysToAdd = 30; // 1 month
+    } else if (termMonths === 3) {
+      daysToAdd = 90; // 3 months
+    } else {
+      // Fallback: approximate 30.44 days per month
+      daysToAdd = Math.round(termMonths * 30.44);
+    }
+
+    maturityDate.setDate(maturityDate.getDate() + daysToAdd);
+
     const totalReturn = amount + (amount * interestRate * termMonths) / (12 * 100);
-    
+
     const deposit: FixedDeposit = {
       id: `dep_${Date.now()}`,
       amount,
@@ -409,9 +426,9 @@ export function SpendingProvider({ children }: { children: React.ReactNode }) {
       status: 'active',
       totalReturn,
     };
-    
+
     setDeposits(prev => [...prev, deposit]);
-    
+
     // Add transaction for the deposit
     addTransaction({
       id: `dep_trans_${Date.now()}`,
